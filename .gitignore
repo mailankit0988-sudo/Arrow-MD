@@ -1,0 +1,25 @@
+# User data — never commit these
+data
+baileys_auth
+.pair_sessions
+.env
+temp
+.bootstrap_tmp_*
+
+.git
+# Auto-pulled from dev repo on first start — not stored in public repo
+commands
+lib
+handler.js
+dev.js
+assets
+
+# Node
+node_modules
+package-lock.json
+yarn.lock
+bootstrap.js
+
+# Misc
+.DS_Store
+*.log
